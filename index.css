@@ -1,0 +1,140 @@
+body {
+    background-color:  #e4cfa6c7;
+    color: #01020c;
+    padding: 30px;
+    margin: 0;
+}
+
+header {
+    background-color: #3e2f1c;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 50px; 
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #704214;
+    border-radius: 8px;
+    color: #ffd700;
+}
+
+h1 {
+    color: #7e4a24;
+    text-align: center;
+    font-size: 2.8em;
+    margin: 40px 0 20px;
+    border-bottom: 3px double #b8860b;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #5a2a00;
+    margin-top: 30px;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 8px;
+}
+
+
+p {
+    font-size: 18px;
+    color: #222;
+    line-height: 1.8;
+    background-color: #fff7ed;
+    padding: 0px 12px;
+    border-left: 5px solid #d2b48c;
+    border-radius: 6px;
+    margin: 15px 0;
+
+    direction: rtl;     
+    text-align: right;  
+}
+
+img {
+    display: block;
+    width: 600px;
+    margin: 30px auto;
+    border-radius: 18px;
+    border: 4px solid #c7b787;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(20, 19, 19, 0.4);
+}
+
+input {
+    background: linear-gradient(to right, #cfa32a, #5e3b00);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    display: block;
+    margin: 40px auto;
+}
+
+
+
+
+.social-footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    background-color: #3e2f1c;
+    margin-top: 50px;
+}
+
+.head{
+    font-size: 36px;
+    color: #000;
+    text-align: center;      
+    direction: rtl;       
+    white-space: nowrap;       
+    overflow: hidden;           
+    
+    width: 0;             
+    margin: 0 auto;       
+    animation: typing 2.9s steps(10) forwards; 
+}
+
+@keyframes typing {
+    to {
+        width: 9ch; 
+    }
+}
+
+
+
+.social-footer img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-footer img:hover {
+    transform: scale(1.2);
+}
